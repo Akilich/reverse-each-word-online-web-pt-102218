@@ -1,15 +1,15 @@
-sentence1 = string.split(" ")
+sentence1 = sentence1.split(" ")
   return_array = [ ]
-  sentence1.each do|string|
-    return_array << string.reverse
+  sentence1.each do|sentence1|
+    return_array << sentence1.reverse
   end
   return_array.join(" ")
 
-def reverse_each_word(string)
-  array = string.split(" ") #turn string into an array
+def reverse_each_word(sentence1)
+  array = sentence1.split(" ") #turn sentence 1 into an array
   test_array = []
-  array.collect do|string| #iterate over the array
-    test_array << string.reverse #reverse each word in the array
+  array.collect do|sentence1| #iterate over the array
+    test_array << sentence1.reverse #reverse each word in the array
   end
   test_array.join(" ")
 end
