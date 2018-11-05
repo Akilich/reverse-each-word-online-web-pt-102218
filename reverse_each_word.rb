@@ -4,4 +4,4 @@ sentence1.split
 sentence1.reverse.each.word do |item|
   puts "#{item}"
 end
-  
+end
