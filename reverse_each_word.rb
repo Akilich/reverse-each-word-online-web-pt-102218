@@ -1,10 +1,3 @@
-sentence1 = sentence1.split(" ")
-  return_array = [ ]
-  sentence1.each do|sentence1|
-    return_array << sentence1.reverse
-  end
-  return_array.join(" ")
-
 def reverse_each_word(sentence1)
   array = sentence1.split(" ") #turn sentence 1 into an array
   test_array = []
