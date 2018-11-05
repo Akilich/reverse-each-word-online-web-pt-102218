@@ -4,7 +4,6 @@ sentence1 = string.split(" ")
     return_array << string.reverse
   end
   return_array.join(" ")
-end
 
 def reverse_each_word(string)
   array = string.split(" ") #turn string into an array
